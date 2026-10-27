@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harsh - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+
+  <!-- header and navbar -->
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- about section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-box">
+        <img src="https://i.ibb.co/ycCtYRnB/Whats-App-Image-2026-10-11-at-2-39-52-PM.jpg" alt="Profile photo of Harsh" class="profile-img">
+        <div class="about-text">
+          <h3>Hi, I am Harsh</h3>
+          <p class="tagline">B.Tech CSE Student | Web Developer</p>
+          <p>
+            Hello! My name is Harsh. I am a first year B.Tech Computer Science student
+            at KR Mangalam University, Gurgaon. I am learning web development and this
+            is my first portfolio website.
+          </p>
+          <p>
+            I like to build small websites and apps and learn new things about coding.
+            My goal is to become a good developer and make useful projects.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- skills section -->
+    <section id="skills">
+      <h2>My Skills</h2>
+      <p class="section-info">These are the technologies I have learned so far and what I can do with them.</p>
+      <table class="skills-table">
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Level</th>
+            <th>What I Can Do</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Advanced</td>
+            <td>Create web pages, tables, forms and use semantic tags</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Advanced</td>
+            <td>Style pages, make layouts and design responsive websites</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Intermediate</td>
+            <td>Add logic and small interactive features to a page</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr>
+
+    <!-- projects section -->
+    <section id="projects">
+      <h2>My Projects</h2>
+      <p class="section-info">Here are some of the projects I have made while learning.</p>
+      <div class="project-box">
+        <div class="project-card">
+          <span class="tag">Project 1</span>
+          <h3>Personal Portfolio Website</h3>
+          <p>A simple portfolio website with a navigation bar, skills table, projects section and a contact form. Made using HTML and CSS.</p>
+        </div>
+        <div class="project-card">
+          <span class="tag">Project 2</span>
+          <h3>Chat Application</h3>
+          <p>A more advanced web application where users can send and receive messages with each other.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- contact section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p class="section-info">Have a question or want to work together? Fill the form below and send me a message.</p>
+      <form id="contact-form">
+        <table class="contact-table">
+          <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" id="name" name="name" placeholder="Enter your name" required minlength="2"></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" name="email" placeholder="Enter your email" required></td>
+          </tr>
+          <tr>
+            <td><label for="message">Message:</label></td>
+            <td><textarea id="message" name="message" rows="4" placeholder="Write your message" required></textarea></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button type="submit">Send</button></td>
+          </tr>
+        </table>
+      </form>
+      <p class="form-note">When you click Send, WhatsApp will open with your message. Just press send there.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Harsh. All rights reserved.</p>
+    <p>Made with HTML and CSS</p>
+  </footer>
+
+  <!-- back to top button -->
+  <a href="#top" class="back-to-top">&#8593; Back to Top</a>
+
+  <!-- javascript file -->
+  <script src="script.js"></script>
+
+</body>
+</html>
